@@ -15,7 +15,7 @@ const Header = () => {
                         <div className="hidden md:flex space-x-8 ml-10 items-center">
                             <NavLink to="/" className={({isActive})=>`${isActive ? "text-red-700" : "text-gray-700"} hover:text-blue-600`}>Home</NavLink>
                             <NavLink to="/about" className={({isActive})=>`${isActive ? "text-red-700" : "text-gray-700"} hover:text-blue-600`}>About</NavLink>
-                            <NavLink to="" className="text-gray-700 hover:text-blue-600">Services</NavLink>
+                            <NavLink to="/services" className={({isActive})=>`${isActive ? "text-red-700" : "text-gray-700"} text-gray-700 hover:text-blue-600`}>Services</NavLink>
                             <NavLink to="" className="text-gray-700 hover:text-blue-600">Contact</NavLink>
                         </div>
                     </div>
