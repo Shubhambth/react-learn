@@ -12,7 +12,7 @@ import { RouterProvider,createBrowserRouter} from 'react-router-dom'
 const routertera = createBrowserRouter([
   {
     path: '/',
-    element: <Layout/>,
+    element: <Layout/>, 
     children: [
       {
         path:"",
