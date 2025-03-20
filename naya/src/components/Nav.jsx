@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+ const shubham = "shubham";
   return (
     <>
     <nav className="bg-blue-600 p-4 shadow-md">
@@ -24,7 +24,7 @@ const Nav = () => {
           <li><Link to="/" className="text-white hover:text-gray-200">Home</Link></li>
           <li><Link to="/about" className="text-white hover:text-gray-200">About</Link></li>
           <li><Link to="/services" className="text-white hover:text-gray-200">Services</Link></li>
-          <li><Link to="/about" className="text-white hover:text-gray-200">Home</Link></li>
+          <li><Link to={`/profile/${shubham}`} className="text-white hover:text-gray-200">user</Link></li>
         </ul>
       </div>
 
